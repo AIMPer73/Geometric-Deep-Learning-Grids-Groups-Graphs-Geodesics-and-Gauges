@@ -334,7 +334,7 @@
 48. E(n)-Equivariant Transformer https://github.com/lucidrains/En-transformer
 
 ### Papers                     
-
+  <ul>
 1. <li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(1).pdf" style="text-decoration:none;">A Course in Abstract Harmonic Analysis</a></li>
 2. <li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(2).pdf" style="text-decoration:none;">Group Equivariant Convolutional Networks</a></li>
 3. <li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(3).pdf" style="text-decoration:none;">PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation</a></li>
@@ -404,3 +404,4 @@
 67.  <li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(67).pdf" style="text-decoration:none;">Universal Invariant and Equivariant Graph Neural Networks</a></li> 
 68.  <li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(68).pdf" style="text-decoration:none;">Scale-Equivariant Steerable Networks</a></li> 
 69.  <li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(69).pdf" style="text-decoration:none;">Group Equivariant Generative Adversarial Networks</a></li>  
+  </ul>

@@ -1,24 +1,17 @@
 # Equivariant Neural Network
 
 ### Background
-
   some references for  group theory and representation theory.
-
   1. [Carter, Visual Group Theory](https://www.amazon.com/Visual-Group-Theory-Problem-Book/dp/088385757X)   
      Note: very basic intro to group theory
-
   2. [Theoretical Aspects of Group Equivariant Neural Networks](https://arxiv.org/abs/2004.05154)  
      Carlos Esteves  
      Note: covers all the math you need for equivariant nets in a fairly compact and accessible manner.
-
   3. [Serre, Linear Representations of Finite Groups](http://www.math.tau.ac.il/~borovoi/courses/ReprFG/Hatzagot.pdf)   
      Note: classic text on representations of finite groups. First few chapters are relevant to equivariant nets.
-
   4. [G B Folland. A Course in Abstract Harmonic Analysis](https://sv.20file.org/up1/1415_0.pdf)   
      Note: covers representations of locally compact groups; induced representations.
-
   5. [David Gurarie. Symmetries and Laplacians: Introduction to Harmonic Analysis, Group Representations and Applications.](https://www.amazon.com/Symmetries-Laplacians-Introduction-Representations-Applications/dp/0486462889)  
-
   6. [Mark Hamilton. Mathematical Gauge Theory: With Applications to the Standard Model of Particle Physics](https://www.amazon.com/Mathematical-Gauge-Theory-Applications-Universitext/dp/3319684388)   
      Note: covers fiber bundles, useful for understanding homogeneous G-CNNs and Gauge CNNs.
      
@@ -27,28 +20,21 @@
 1. **On the Generalization of Equivariance and Convolution in Neural Networks to the Action of Compact Groups**  
    Risi Kondor, Shubhendu Trivedi ICML 2018 [paper](https://arxiv.org/abs/1802.03690)  
    Note: convolution is all you need (for scalar fields)
-
 2. **A General Theory of Equivariant CNNs on Homogeneous Spaces**  
    Taco Cohen, Mario Geiger, Maurice Weiler NeurIPS 2019 [paper](https://arxiv.org/abs/1811.02017)  
    Note: convolution is all you need (for general fields)
-
 3. **Equivariance Through Parameter-Sharing**  
    Siamak Ravanbakhsh, Jeff Schneider, Barnabas Poczos ICML 2017 [paper](https://arxiv.org/abs/1702.08389)
-
 4. **Universal approximations of invariant maps by neural networks**  
    Dmitry Yarotsky [paper](https://arxiv.org/abs/1804.10306)
-
 5. **A Wigner-Eckart Theorem for Group Equivariant Convolution Kernels**  
    Leon Lang, Maurice Weiler ICLR 2021 [paper](https://arxiv.org/abs/2010.10952)  
    Note: steerable kernel spaces are fully understood and parameterized in terms of 1) generalized reduced matrix elements, 2) Clebsch-Gordan coefficients, and 3) harmonic basis functions on homogeneous spaces.
-
 6. **On the Universality of Rotation Equivariant Point Cloud Networks**  
    Nadav Dym, Haggai Maron ICLR 2021 [paper](https://arxiv.org/abs/2010.02449),   
    Note: universality for TFN and se3-transformer 
-
 7. **Universal Equivariant Multilayer Perceptrons**  
    Siamak Ravanbakhsh [paper](https://arxiv.org/abs/2002.02912)
-
 8. **Provably Strict Generalisation Benefit for Equivariant Models**  
    Bryn Elesedy, Sheheryar Zaidi [paper](https://arxiv.org/abs/2102.10333)
 
@@ -84,23 +70,14 @@
 ### Tutorial
 
 1. IAS: [Graph Nets: The Next Generation - Max Welling - YouTube](https://www.youtube.com/watch?v=Wx8J-Kw3fTA&t=3602s)
-
 2. [Equivariance and Data Augmentation workshop](https://sites.google.com/view/equiv-data-aug/home): many nice talks
-
 3. IPAM: [Tess Smidt: "Euclidean Neural Networks for Emulating Ab Initio Calculations and Generating Atomi..." - YouTube](https://www.youtube.com/watch?v=8CF8Grb_brE)
-
 4. IPAM: [E(3) Equivariant Neural Network Tutorial ](https://blondegeek.github.io/e3nn_tutorial/)
-
 5. IPAM: [Risi Kondor: "Fourier space neural networks" ](https://www.youtube.com/watch?v=-PVyi0Keiec)
-
 6. [NeurIPS 2020 tutorial: Equivariant Networks](https://nips.cc/virtual/2020/public/tutorial_3e267ff3c8b6621e5ad4d0f26142892b.html)
-
 7. [Yaron Lipman - Deep Learning of Irregular and Geometric Data - YouTube](https://www.youtube.com/watch?v=fveyx5zKReo&feature=youtu.be)
-
 8. Math-ML: [Erik J Bekkers: Group Equivariant CNNs beyond Roto-Translations: B-Spline CNNs on Lie Groups](https://youtu.be/rakcnrgX4oo)
-
 9. Kostas Daniilidis: [Geometry-aware deep learning: A brief history of equivariant representations and recent results](https://mathinstitutes.org/videos/videos/view/15146)
-
 10. Andrew White: [ Deep Learning for Molecules and Materials.](https://whitead.github.io/dmol-book/dl/Equivariant.html)
 ### Equivariant
 
@@ -229,10 +206,7 @@
 50. **Temperature-steerable flows**    
      Manuel Dibak, Leon Klein, Frank Noé NeurIPS 2020 ML4Phys workshops [paper](https://arxiv.org/abs/2012.00429)  
      Note: normalizing flows in phase space with equivariance with respect to changes in temperature.
-
-
-
-
+     
 ###  Codes
 
 1. dynamics prediction using permutation-equivariant neural networks https://github.com/arayabrain/PermutationalNetworks
@@ -335,73 +309,73 @@
 
 ### Papers                     
 <ul>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(1).pdf" style="text-decoration:none;">A Course in Abstract Harmonic Analysis</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(2).pdf" style="text-decoration:none;">Group Equivariant Convolutional Networks</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(3).pdf" style="text-decoration:none;">PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(4).pdf" style="text-decoration:none;">Harmonic Networks: Deep Translation and Rotation Equivariance</a></li>      
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(5).pdf" style="text-decoration:none;">Steerable CNNs</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(6).pdf" style="text-decoration:none;">Equivariance Through Parameter-Sharing</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(7).pdf" style="text-decoration:none;">Deep Sets</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(8).pdf" style="text-decoration:none;"> Polar Transformer Networks </a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(9).pdf" style="text-decoration:none;">Learning Steerable Filters for Rotation Equivariant CNNs</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(10).pdf" style="text-decoration:none;">Spherical CNNs </a></li>  
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(11).pdf" style="text-decoration:none;">On the Generalization of Equivariance and Convolution in Neural Networks to the Action of Compact Groups</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(12).pdf" style="text-decoration:none;">Tensor field networks:Rotation- and translation-equivariant neural networks for 3D point clouds</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(13).pdf" style="text-decoration:none;">Roto-Translation Covariant Convolutional Networks for Medical Image Analysis</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(14).pdf" style="text-decoration:none;">3D G-CNNs for Pulmonary Nodule Detection</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(15).pdf" style="text-decoration:none;">Universal approximations of invariant maps by neural networks</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(16).pdf" style="text-decoration:none;">Clebsch–Gordan Nets: a Fully Fourier Space Spherical Convolutional Neural Network</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(17).pdf" style="text-decoration:none;">3D Steerable CNNs: Learning Rotationally Equivariant Features in Volumetric Data</a></li>   
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(18).pdf" style="text-decoration:none;">A General Theory of Equivariant CNNs on Homogeneous Spaces</a></li> 
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(19).pdf" style="text-decoration:none;">Invariant and Equivariant Graph Networks</a></li> 
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(20).pdf" style="text-decoration:none;">On the Universality of Invariant Networks</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(21).pdf" style="text-decoration:none;">Gauge Equivariant Convolutional Networks and the Icosahedral CNN</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(22).pdf" style="text-decoration:none;">Equivariant Multi-View Networks</a></li> 
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(23).pdf" style="text-decoration:none;">Provably Powerful Graph Networks</a></li> 
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(24).pdf" style="text-decoration:none;">Cormorant: Covariant Molecular Neural Networks</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(25).pdf" style="text-decoration:none;">Ab-Initio Solution of the Many-Electron Schrodinger Equation with Deep Neural Networks</a></li>  
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(26).pdf" style="text-decoration:none;">Equivariant Hamiltonian Flows</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(27).pdf" style="text-decoration:none;">Co-Attentive Equivariant Neural Networks: Focusing Equivariance On Transformations Co-Occurring In Data</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(28).pdf" style="text-decoration:none;">General E(2) - Equivariant Steerable CNNs</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(29).pdf" style="text-decoration:none;">Universal Equivariant Multilayer Perceptrons </a></li>                              
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(30).pdf" style="text-decoration:none;">Incorporating Symmetry into Deep Dynamics Models for Improved Generalization</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(31).pdf" style="text-decoration:none;">Attentive Group Equivariant Convolutional Networks</a></li> 
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(32).pdf" style="text-decoration:none;">Targeted free energy estimation via learned mappings</a></li> 
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(33).pdf" style="text-decoration:none;">On Learning Sets of Symmetric Elements</a></li>               
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(34).pdf" style="text-decoration:none;">Roto-Translation Equivariant Convolutional Networks: Application to Histopathology Image Analysis</a></li> 
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(35).pdf" style="text-decoration:none;">Generalizing Convolutional Neural Networks for Equivariance to Lie Groups on Arbitrary Continuous Data</a></li> 
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(36).pdf" style="text-decoration:none;">Gauge Equivariant Mesh CNNs Anisotropic convolutions on geometric graphs</a></li> 
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(37).pdf" style="text-decoration:none;">Isometric Transformation Invariant and Equivariant Graph Convolutional Networks</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(38).pdf" style="text-decoration:none;">The Convolution Exponential and Generalized Sylvester Flows</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(39).pdf" style="text-decoration:none;">Equivariant Flows: Exact Likelihood Generative Learning for Symmetric Densities</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(40).pdf" style="text-decoration:none;">Lorentz Group Equivariant Neural Network for Particle Physics</a></li> 
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(41).pdf" style="text-decoration:none;">Wavelet Networks:Scale Equivariant Learning From Raw Waveforms</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(42).pdf" style="text-decoration:none;">SE(3)-Transformers: 3D Roto-Translation Equivariant Attention Networks</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(43).pdf" style="text-decoration:none;">Spin-Weighted Spherical CNNs</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(44).pdf" style="text-decoration:none;">MDP Homomorphic Networks: Group Symmetries in Reinforcement Learning</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(45).pdf" style="text-decoration:none;">Finding symmetry-breaking Order Parameters with Euclidean Neural Networks</a></li>  
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(46).pdf" style="text-decoration:none;">Scale Equivariance Improves Siamese Tracking</a></li> 
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(47).pdf" style="text-decoration:none;">Exchangeable Neural ODE for Set Modeling</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(48).pdf" style="text-decoration:none;">Sampling using SU(N) gauge equivariant flows</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(49).pdf" style="text-decoration:none;">Group Equivariant Stand-Alone Self-Attention For Vision</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(50).pdf" style="text-decoration:none;">On the Universality of Rotation Equivariant Point Cloud Networks</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(51).pdf" style="text-decoration:none;">Equivariant Normalizing Flows for Point Processes and Sets</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(52).pdf" style="text-decoration:none;">A Wigner-Eckart Theorem for Group Equivariant Convolution Kernels</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(53).pdf" style="text-decoration:none;">Trajectory Prediction using Equivariant Continuous Convolution</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(54).pdf" style="text-decoration:none;">Learning Invariances in Neural Networks </a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(55).pdf" style="text-decoration:none;">Symmetry-Aware Actor-Critic for 3D Molecular Design</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(56).pdf" style="text-decoration:none;">Temperature-steerable flows </a></li>                              
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(57).pdf" style="text-decoration:none;">LieTransformer: Equivariant Self-Attention for Lie Groups</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(58).pdf" style="text-decoration:none;">SE(3)-Equivariant Graph Neural Networks for Data-Efficient and Accurate Interatomic Potentials</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(59).pdf" style="text-decoration:none;">Rotation-Equivariant Deep Learning for Diffusion MRI</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(60).pdf" style="text-decoration:none;">Equivariant Spherical Deconvolution: Learning Sparse Orientation Distribution Functions from Spherical Data </a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(61).pdf" style="text-decoration:none;">Provably Strict Generalisation Benefit for Equivariant Models</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(62).pdf" style="text-decoration:none;">B-Spline CNNs on Lie Groups</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(63).pdf" style="text-decoration:none;">Learning SO(3) Equivariant Representations with Spherical CNNs</a></li>      
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(64).pdf" style="text-decoration:none;">Linear· Representations of Finite Groups</a></li>
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(65).pdf" style="text-decoration:none;">Lie Algebra Convolutional Neural Networks with Automatic Symmetry Extraction </a></li> 
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(66).pdf" style="text-decoration:none;">Deep Scale-spaces: Equivariance Over Scale</a></li> 
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(67).pdf" style="text-decoration:none;">Universal Invariant and Equivariant Graph Neural Networks</a></li> 
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(68).pdf" style="text-decoration:none;">Scale-Equivariant Steerable Networks</a></li> 
-<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/Equivariant/blob/master/e(69).pdf" style="text-decoration:none;">Group Equivariant Generative Adversarial Networks</a></li>  
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(1).pdf" style="text-decoration:none;">A Course in Abstract Harmonic Analysis</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(2).pdf" style="text-decoration:none;">Group Equivariant Convolutional Networks</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(3).pdf" style="text-decoration:none;">PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(4).pdf" style="text-decoration:none;">Harmonic Networks: Deep Translation and Rotation Equivariance</a></li>      
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(5).pdf" style="text-decoration:none;">Steerable CNNs</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(6).pdf" style="text-decoration:none;">Equivariance Through Parameter-Sharing</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(7).pdf" style="text-decoration:none;">Deep Sets</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(8).pdf" style="text-decoration:none;"> Polar Transformer Networks </a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(9).pdf" style="text-decoration:none;">Learning Steerable Filters for Rotation Equivariant CNNs</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(10).pdf" style="text-decoration:none;">Spherical CNNs </a></li>  
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(11).pdf" style="text-decoration:none;">On the Generalization of Equivariance and Convolution in Neural Networks to the Action of Compact Groups</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(12).pdf" style="text-decoration:none;">Tensor field networks:Rotation- and translation-equivariant neural networks for 3D point clouds</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(13).pdf" style="text-decoration:none;">Roto-Translation Covariant Convolutional Networks for Medical Image Analysis</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(14).pdf" style="text-decoration:none;">3D G-CNNs for Pulmonary Nodule Detection</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(15).pdf" style="text-decoration:none;">Universal approximations of invariant maps by neural networks</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(16).pdf" style="text-decoration:none;">Clebsch–Gordan Nets: a Fully Fourier Space Spherical Convolutional Neural Network</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(17).pdf" style="text-decoration:none;">3D Steerable CNNs: Learning Rotationally Equivariant Features in Volumetric Data</a></li>   
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(18).pdf" style="text-decoration:none;">A General Theory of Equivariant CNNs on Homogeneous Spaces</a></li> 
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(19).pdf" style="text-decoration:none;">Invariant and Equivariant Graph Networks</a></li> 
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(20).pdf" style="text-decoration:none;">On the Universality of Invariant Networks</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(21).pdf" style="text-decoration:none;">Gauge Equivariant Convolutional Networks and the Icosahedral CNN</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(22).pdf" style="text-decoration:none;">Equivariant Multi-View Networks</a></li> 
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(23).pdf" style="text-decoration:none;">Provably Powerful Graph Networks</a></li> 
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(24).pdf" style="text-decoration:none;">Cormorant: Covariant Molecular Neural Networks</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(25).pdf" style="text-decoration:none;">Ab-Initio Solution of the Many-Electron Schrodinger Equation with Deep Neural Networks</a></li>  
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(26).pdf" style="text-decoration:none;">Equivariant Hamiltonian Flows</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(27).pdf" style="text-decoration:none;">Co-Attentive Equivariant Neural Networks: Focusing Equivariance On Transformations Co-Occurring In Data</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(28).pdf" style="text-decoration:none;">General E(2) - Equivariant Steerable CNNs</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(29).pdf" style="text-decoration:none;">Universal Equivariant Multilayer Perceptrons </a></li>                              
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(30).pdf" style="text-decoration:none;">Incorporating Symmetry into Deep Dynamics Models for Improved Generalization</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(31).pdf" style="text-decoration:none;">Attentive Group Equivariant Convolutional Networks</a></li> 
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(32).pdf" style="text-decoration:none;">Targeted free energy estimation via learned mappings</a></li> 
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(33).pdf" style="text-decoration:none;">On Learning Sets of Symmetric Elements</a></li>               
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(34).pdf" style="text-decoration:none;">Roto-Translation Equivariant Convolutional Networks: Application to Histopathology Image Analysis</a></li> 
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(35).pdf" style="text-decoration:none;">Generalizing Convolutional Neural Networks for Equivariance to Lie Groups on Arbitrary Continuous Data</a></li> 
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(36).pdf" style="text-decoration:none;">Gauge Equivariant Mesh CNNs Anisotropic convolutions on geometric graphs</a></li> 
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(37).pdf" style="text-decoration:none;">Isometric Transformation Invariant and Equivariant Graph Convolutional Networks</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(38).pdf" style="text-decoration:none;">The Convolution Exponential and Generalized Sylvester Flows</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(39).pdf" style="text-decoration:none;">Equivariant Flows: Exact Likelihood Generative Learning for Symmetric Densities</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(40).pdf" style="text-decoration:none;">Lorentz Group Equivariant Neural Network for Particle Physics</a></li> 
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(41).pdf" style="text-decoration:none;">Wavelet Networks:Scale Equivariant Learning From Raw Waveforms</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(42).pdf" style="text-decoration:none;">SE(3)-Transformers: 3D Roto-Translation Equivariant Attention Networks</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(43).pdf" style="text-decoration:none;">Spin-Weighted Spherical CNNs</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(44).pdf" style="text-decoration:none;">MDP Homomorphic Networks: Group Symmetries in Reinforcement Learning</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(45).pdf" style="text-decoration:none;">Finding symmetry-breaking Order Parameters with Euclidean Neural Networks</a></li>  
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(46).pdf" style="text-decoration:none;">Scale Equivariance Improves Siamese Tracking</a></li> 
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(47).pdf" style="text-decoration:none;">Exchangeable Neural ODE for Set Modeling</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(48).pdf" style="text-decoration:none;">Sampling using SU(N) gauge equivariant flows</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(49).pdf" style="text-decoration:none;">Group Equivariant Stand-Alone Self-Attention For Vision</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(50).pdf" style="text-decoration:none;">On the Universality of Rotation Equivariant Point Cloud Networks</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(51).pdf" style="text-decoration:none;">Equivariant Normalizing Flows for Point Processes and Sets</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(52).pdf" style="text-decoration:none;">A Wigner-Eckart Theorem for Group Equivariant Convolution Kernels</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(53).pdf" style="text-decoration:none;">Trajectory Prediction using Equivariant Continuous Convolution</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(54).pdf" style="text-decoration:none;">Learning Invariances in Neural Networks </a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(55).pdf" style="text-decoration:none;">Symmetry-Aware Actor-Critic for 3D Molecular Design</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(56).pdf" style="text-decoration:none;">Temperature-steerable flows </a></li>                              
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(57).pdf" style="text-decoration:none;">LieTransformer: Equivariant Self-Attention for Lie Groups</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(58).pdf" style="text-decoration:none;">SE(3)-Equivariant Graph Neural Networks for Data-Efficient and Accurate Interatomic Potentials</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(59).pdf" style="text-decoration:none;">Rotation-Equivariant Deep Learning for Diffusion MRI</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(60).pdf" style="text-decoration:none;">Equivariant Spherical Deconvolution: Learning Sparse Orientation Distribution Functions from Spherical Data </a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(61).pdf" style="text-decoration:none;">Provably Strict Generalisation Benefit for Equivariant Models</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(62).pdf" style="text-decoration:none;">B-Spline CNNs on Lie Groups</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(63).pdf" style="text-decoration:none;">Learning SO(3) Equivariant Representations with Spherical CNNs</a></li>      
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(64).pdf" style="text-decoration:none;">Linear· Representations of Finite Groups</a></li>
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(65).pdf" style="text-decoration:none;">Lie Algebra Convolutional Neural Networks with Automatic Symmetry Extraction </a></li> 
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(66).pdf" style="text-decoration:none;">Deep Scale-spaces: Equivariance Over Scale</a></li> 
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(67).pdf" style="text-decoration:none;">Universal Invariant and Equivariant Graph Neural Networks</a></li> 
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(68).pdf" style="text-decoration:none;">Scale-Equivariant Steerable Networks</a></li> 
+<li><a target="_blank" href="https://github.com/Chunyan-Law/Geometric-Deep-Learning-Grids-Groups-Graphs-Geodesics-and-Gauges/e(69).pdf" style="text-decoration:none;">Group Equivariant Generative Adversarial Networks</a></li>  
  </ul>
